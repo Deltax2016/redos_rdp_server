@@ -1,7 +1,7 @@
 import socket
 
 soc = socket.socket()
-host = "localhost"
+host = "0.0.0.0"
 port = 3000
 soc.bind((host, port))
 soc.listen(5)
