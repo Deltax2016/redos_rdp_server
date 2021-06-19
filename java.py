@@ -27,6 +27,6 @@ while(1):
         data = conn.recv(1024)
         #break if not found to get to close statement which was never reached in old code
         if not data: break 
-        print("Received data:", data.decode())
+        print("Received data:", data)
         conn.sendall(data)
     conn.close() 
