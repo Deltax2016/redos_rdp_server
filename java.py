@@ -1,23 +1,32 @@
+import sys
 import socket
+print('ok')
+HOST = "0.0.0.0"
+PORT = 3000
 
-soc = socket.socket()
-host = "0.0.0.0"
-port = 3000
-soc.bind((host, port))
-soc.listen(5)
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+print("Socket created")
 
-while True:
-    conn, addr = soc.accept()
-    print("Got connection from",addr)
-    length_of_message = int.from_bytes(conn.recv(2), byteorder='big')
-    msg = conn.recv(length_of_message).encode("UTF-8")
-    print(msg)
-    print(length_of_message)
+try:
+    s.bind((HOST, PORT))
+except Socket.error as msg:
+    print("Bind failed.")
+    print("Error code: "+str(msg[0]))
+    print("Message: "+str(msg[1]))
+    sys.exit()
+print("Socket bind complete")
 
-    # Note the corrected indentation below
-    if "Hello" in msg:
-        message_to_send = "bye"
-        conn.send(len(message_to_send).to_bytes(2, byteorder='big'))
-        conn.send(message_to_send)
-    else:
-        print("no message")
+s.listen(10)
+print("Socket now listening")
+
+while(1):
+    conn, addr = s.accept()
+    print("Connected with: "+addr[0])
+    #Waits for any incoming data and echoes it back
+    while(1):
+        data = conn.recv(1024)
+        #break if not found to get to close statement which was never reached in old code
+        if not data: break 
+        print("Received data:", data.decode())
+        conn.sendall(data)
+    conn.close() 
