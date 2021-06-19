@@ -9,7 +9,7 @@ print("Socket created")
 
 try:
     s.bind((HOST, PORT))
-except Socket.error as msg:
+except socket.error as msg:
     print("Bind failed.")
     print("Error code: "+str(msg[0]))
     print("Message: "+str(msg[1]))

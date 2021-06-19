@@ -4,7 +4,7 @@ import json
 
 
 async def hello():
-    uri = "ws://localhost:3000"
+    uri = "ws://178.154.247.34:3000"
     async with websockets.connect(uri) as websocket:
         #name = input("What's your name? ")
 
