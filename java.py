@@ -10,7 +10,7 @@ while True:
     conn, addr = soc.accept()
     print("Got connection from",addr)
     length_of_message = int.from_bytes(conn.recv(2), byteorder='big')
-    msg = conn.recv(length_of_message).decode("UTF-8")
+    msg = conn.recv(length_of_message)
     print(msg)
     print(length_of_message)
 
