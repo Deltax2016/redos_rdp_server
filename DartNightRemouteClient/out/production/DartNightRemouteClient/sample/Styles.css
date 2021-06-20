@@ -1,0 +1,223 @@
+#entry {
+    -fx-background-color: transparent;
+    -fx-text-fill: #bfbfbf;
+    -fx-font-size: 14;
+}
+
+#entry:hover {
+    -fx-background-color: #1b1b1b;
+    -fx-text-fill: red;
+    -fx-font-size: 14;
+}
+
+#entry:pressed {
+    -fx-background-color: #1b1b1b;
+    -fx-text-fill: red;
+    -fx-font-size: 14;
+}
+
+
+#entry1 {
+    -fx-background-color: transparent;
+    -fx-text-fill: #bfbfbf;
+    -fx-font-size: 14;
+}
+
+#entry1:hover {
+    -fx-background-color: #1b1b1b;
+    -fx-text-fill: red;
+    -fx-font-size: 14;
+}
+
+#entry1:pressed {
+    -fx-background-color: #1b1b1b;
+    -fx-text-fill: red;
+    -fx-font-size: 14;
+}
+
+#entry2 {
+    -fx-background-color: transparent;
+    -fx-text-fill: #bfbfbf;
+    -fx-font-size: 14;
+}
+
+#entry2:hover {
+    -fx-background-color: #1b1b1b;
+    -fx-text-fill: red;
+    -fx-font-size: 14;
+}
+
+#entry2:pressed {
+    -fx-background-color: #1b1b1b;
+    -fx-text-fill: red;
+    -fx-font-size: 14;
+}
+
+#entry3 {
+    -fx-background-color: transparent;
+    -fx-text-fill: #bfbfbf;
+    -fx-font-size: 14;
+}
+
+#entry3:hover {
+    -fx-background-color: #1b1b1b;
+    -fx-text-fill: red;
+    -fx-font-size: 14;
+}
+
+#entry3:pressed {
+    -fx-background-color: #1b1b1b;
+    -fx-text-fill: red;
+    -fx-font-size: 14;
+}
+
+#entry4 {
+    -fx-background-color: transparent;
+    -fx-text-fill: #bfbfbf;
+    -fx-font-size: 14;
+}
+
+#entry4:hover {
+    -fx-background-color: #1b1b1b;
+    -fx-text-fill: red;
+    -fx-font-size: 14;
+}
+
+#entry4:pressed {
+    -fx-background-color: #1b1b1b;
+    -fx-text-fill: red;
+    -fx-font-size: 14;
+}
+
+#entry5 {
+    -fx-background-color: transparent;
+    -fx-text-fill: #bfbfbf;
+    -fx-font-size: 14;
+}
+
+#entry5:hover {
+    -fx-background-color: #1b1b1b;
+    -fx-text-fill: red;
+    -fx-font-size: 14;
+}
+
+#entry5:pressed {
+    -fx-background-color: #1b1b1b;
+    -fx-text-fill: red;
+    -fx-font-size: 14;
+}
+
+
+#connect {
+    -fx-background-color: transparent;
+    -fx-background-radius: 16.4, 15;
+    -fx-background-insets: -1.4, 0;
+    -fx-border-radius: 0 0 0 15;
+    -fx-border-width: 2;
+    -fx-border-color: dimgrey;
+    -fx-padding: 0;
+    -fx-text-fill: #bfbfbf;
+    -fx-font-size: 14;
+}
+
+#connect:hover {
+
+    -fx-background-radius: 16.4, 15;
+    -fx-background-insets: -1.4, 0;
+    -fx-border-radius: 0 0 0 15;
+    -fx-border-width: 2;
+    -fx-border-color: dimgrey;
+    -fx-padding: 0;
+    -fx-text-fill: red;
+    -fx-font-size: 14;
+}
+
+#connect:pressed {
+    -fx-background-radius: 16.4, 15;
+    -fx-background-insets: -1.4, 0;
+    -fx-border-radius: 0 0 0 15;
+    -fx-border-width: 2;
+    -fx-border-color: dimgrey;
+    -fx-padding: 0;
+    -fx-text-fill: red;
+    -fx-font-size: 14;
+}
+
+#connect2 {
+    -fx-background-color: transparent;
+    -fx-background-radius: 16.4, 15;
+    -fx-background-insets: -1.4, 0;
+    -fx-border-radius: 0 0 0 15;
+    -fx-border-width: 2;
+    -fx-border-color: dimgrey;
+    -fx-padding: 0;
+    -fx-text-fill: #bfbfbf;
+    -fx-font-size: 14;
+}
+
+#connect2:hover {
+
+/ / -fx-background-color: #1b1b1b;
+    -fx-background-radius: 16.4, 15;
+    -fx-background-insets: -1.4, 0;
+    -fx-border-radius: 0 0 0 15;
+    -fx-border-width: 2;
+    -fx-border-color: dimgrey;
+    -fx-padding: 0;
+    -fx-text-fill: red;
+    -fx-font-size: 14;
+}
+
+#connect2:pressed {
+    -fx-background-radius: 16.4, 15;
+    -fx-background-insets: -1.4, 0;
+    -fx-border-radius: 0 0 0 15;
+    -fx-border-width: 2;
+    -fx-border-color: dimgrey;
+    -fx-padding: 0;
+    -fx-text-fill: red;
+    -fx-font-size: 14;
+}
+
+#textF1 {
+    -fx-background-color: #423e3e;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0 0 0 15;
+    -fx-text-fill: dimgrey;
+    -fx-font-size: 14;
+}
+
+#textF2 {
+    -fx-background-color: #423e3e;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0 0 0 15;
+    -fx-text-fill: dimgrey;
+    -fx-font-size: 14;
+}
+
+#textF3 {
+    -fx-background-color: #363636;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0 0 0 15;
+    -fx-text-fill: dimgrey;
+    -fx-font-size: 14;
+}
+
+#textF4 {
+    -fx-background-color: #363636;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0 0 0 15;
+    -fx-text-fill: dimgrey;
+    -fx-font-size: 14;
+}
+
+#radioB .radio .dot {
+
+    -fx-background-color: #bfbfbf;
+    -fx-background-insets: 0;
+}
+
+#radioB:selected .radio .dot {
+    -fx-background-color: red;
+    -fx-background-insets: 0;
+}
